@@ -1,0 +1,63 @@
+.info {
+    position: relative;
+    &__logo {
+        width: 270px;
+        height: 270px;
+    }
+    &__wrapper {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        width: 698px;
+        height: 270px;
+        background: $backgroundSecond;
+    }
+    &__block {
+        position: relative;
+        margin-left: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-invite {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 20px;
+            font-weight: 700;
+        }
+        &-descr {
+            margin-top: 50px;
+            width: 200px;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 400;
+            img {
+                position: absolute;
+                left: 25px;
+                top: 48%;
+            }
+        }
+        &-phone {
+            margin-top: 20px;
+            img {
+                position: absolute;
+                left: 25px;
+                bottom: 16%;
+            }
+            a {
+                width: 200px;
+                color: #FFF;
+                text-align: center;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+        }
+    }
+}

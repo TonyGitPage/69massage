@@ -1,0 +1,31 @@
+@import 'base/var';
+// @import 'base/mixins';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-family: 'Playfair Display';
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.hamburger {
+    display: none;
+    z-index: 10;
+}
+
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/title';
+@import 'blocks/divider';
+@import 'blocks/services';
+@import 'blocks/interior';
+@import 'blocks/info';  
+@import 'blocks/vacancies';
+@import 'blocks/media';
