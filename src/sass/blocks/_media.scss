@@ -170,6 +170,11 @@
             ul {
                 flex-direction: column;
                 height: 300px;
+                li {
+                    :hover {
+                        font-size: 20px;
+                    }
+                }
             }
             &-active {
                 left: 0;
