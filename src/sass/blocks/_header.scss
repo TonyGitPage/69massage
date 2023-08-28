@@ -5,11 +5,11 @@
         top: 0;
         left: 0;
         padding-left: 400px;
-        padding-right: 420px;
+        padding-right: 350px;
         display: flex;
         width: 100vw;
         background-color: rgba(35, 21, 21, 0.9);
-        z-index: 5;
+        z-index: 10;
     }
     &__logo {
         img {
@@ -20,7 +20,7 @@
     &__menu {
         list-style: none;
         display: flex;
-        margin-left: 65px;
+        margin-left: 15px;
         width: 100%;
         justify-content: space-between;
         align-items: center;

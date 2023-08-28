@@ -39,7 +39,12 @@
             img {
                 position: absolute;
                 left: -40px;
-                bottom: 28%;
+                bottom: 16%;
+                &.vacancies__second {
+                    position: absolute;
+                    left: -40px;
+                    bottom: 63%;
+                }
             }
             a {
                 margin-top: 10px;
