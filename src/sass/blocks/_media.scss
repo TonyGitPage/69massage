@@ -52,8 +52,14 @@
             padding-right: 80px;
         }
         &__menu {
+            margin-left: 0px;
             ul {
-                margin-left: 20px;
+                margin-left: 10px;
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }
@@ -90,14 +96,14 @@
     }
     .header {
         nav {
-            padding-left: 40px;
-            padding-right: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         ul {
             margin-left: 0;
             li {
                 a {
-                    font-size: 16px;
+                    font-size: 15px;
                 }
             }
         }
@@ -178,6 +184,13 @@
             }
         }
     }
+    .description {
+        &__wrapper {
+            p {
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -204,6 +217,10 @@
                 flex-direction: column;
                 height: 300px;
                 li {
+                    a {
+                        display: flex;
+                        text-align: center;
+                    }
                     :hover {
                         font-size: 20px;
                     }
@@ -413,6 +430,13 @@
                     font-size: 16px;
                     height: 40px;
                 }
+            }
+        }
+    }
+    .description {
+        &__wrapper {
+            p {
+                font-size: 16px;
             }
         }
     }

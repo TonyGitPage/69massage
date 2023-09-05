@@ -4,9 +4,10 @@
         position: fixed;
         top: 0;
         left: 0;
-        padding-left: 400px;
-        padding-right: 350px;
+        padding-left: 300px;
+        padding-right: 300px;
         display: flex;
+        align-items: center;
         width: 100vw;
         background-color: rgba(35, 21, 21, 0.9);
         z-index: 10;
@@ -20,14 +21,14 @@
     &__menu {
         list-style: none;
         display: flex;
-        margin-left: 15px;
+        margin-left: 35px;
         width: 100%;
         justify-content: space-between;
         align-items: center;
         ul {
             list-style: none;
             display: flex;
-            margin-left: 65px;
+            margin-left: 10px;
             width: 100%;
             justify-content: space-between;
             align-items: center;
@@ -52,6 +53,33 @@
                 &:hover:before {
                     width: 100%;
                 }
+                // button {
+                //     width: 55px;
+                //     height: 105px;
+                //     background-color: $backgroundColor;
+                //     img {
+                //         width: 100%;
+                //         height: 100%;
+                //         background-color: $backgroundColor;
+                //     }
+                // }
+            }
+        }
+        &-lang {
+            display: flex;
+            margin-left: 40px;
+            width: 140px;
+            height: 50px;
+            border-radius: 25px;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: $backgroundSecond;
+            p {
+                font-family: 'Montserrat';
+                text-decoration: none;
+                color: gold;
+                font-size: 20px;
+                font-weight: 400;
             }
         }
     }
@@ -68,6 +96,24 @@
         z-index: 3;
         &-active {
             display: block;
+        }
+    }
+    &__btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-family: 'Montserrat';
+        text-decoration: none;
+        color: gold;
+        font-size: 20px;
+        font-weight: 400;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        &_active {
+            color:#FFF;
+            font-weight: 700;
         }
     }
 }
