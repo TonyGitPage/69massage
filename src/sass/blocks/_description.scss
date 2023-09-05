@@ -1,0 +1,27 @@
+.description {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    min-height: 1000px;
+    background-color: #300808;
+    &__wrapper {
+        margin: 50px auto 0 auto;
+        border-radius: 25px;
+        border: 5px solid #ebbc86;
+        background: #300808;
+        display: flex;
+        max-width: 100%;
+        min-height: 118px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        p {
+            margin: 30px 45px 30px 45px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
