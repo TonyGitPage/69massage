@@ -14,14 +14,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
-        p {
-            margin: 30px 45px 30px 45px;
-            color: #fff;
-            text-align: center;
-            font-family: 'Montserrat';
-            font-weight: 400;
-            font-size: 20px;
-        }
+        position: relative; 
+        padding: 30px 45px 30px 45px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 20px;
     }
 }

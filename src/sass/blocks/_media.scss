@@ -1,8 +1,8 @@
 @media (max-width: 1700px) {
     .header {
         nav {
-            padding-left: 170px;
-            padding-right: 220px;
+            padding-left: 120px;
+            padding-right: 120px;        
         }
     }
     .services {
@@ -22,9 +22,22 @@
 
 @media (max-width: 1400px) {
     .header {
+        &__menu {
+            margin-left: 10px;
+            &-lang {
+                margin-left: 35px;
+            }
+        }
         nav {
             padding-left: 100px;
             padding-right: 120px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
     .services {
@@ -48,8 +61,15 @@
     }
     .header {
         nav {
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 35px;
+            padding-right: 45px;
+            ul {
+                li {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
         }
         &__menu {
             margin-left: 0px;
@@ -61,6 +81,14 @@
                     }
                 }
             }
+            &-lang {
+                margin-left: 30px;
+                width: 130px;
+                height: 35px;
+            }
+        }
+        &__btn {
+            font-size: 18px;
         }
     }
     .girls {
@@ -96,16 +124,36 @@
     }
     .header {
         nav {
+            justify-content: center;
             padding-left: 20px;
             padding-right: 20px;
-        }
-        ul {
-            margin-left: 0;
-            li {
-                a {
-                    font-size: 15px;
+            ul {
+                margin-left: 0;
+                li {
+                    a {
+                        font-size: 14px;
+                    }
                 }
             }
+        }
+        &__logo {
+            img {
+                width: 85px;
+                height: 85px;
+            }
+        }
+        &__menu {
+            &-lang {
+                margin-left: 8px;
+                width: 105px;
+                height: 30px;
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+        &__btn {
+            font-size: 15px;
         }
     }
     .about {
@@ -186,9 +234,7 @@
     }
     .description {
         &__wrapper {
-            p {
-                font-size: 18px;
-            }
+            font-size: 18px;
         }
     }
 }
@@ -275,8 +321,8 @@
     .hamburger {
         display: block;
         position: absolute;
-        right: 50px;
-        top: 50px;
+        right: 20px;
+        top: 40px;
         width: 26px;
         height: 12px;
         span {
@@ -435,9 +481,7 @@
     }
     .description {
         &__wrapper {
-            p {
-                font-size: 16px;
-            }
+            font-size: 16px;
         }
     }
 }
