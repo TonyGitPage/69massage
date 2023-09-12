@@ -362,14 +362,15 @@
         max-width: 90%;
     }
     .about {
+        padding-top: 145px;
         &__title {
-            width: 290px;
+            width: 295px;
             font-size: 25px;
             text-align: center;
             margin: 0 auto 0 auto;
         }
         &__button {
-            margin: 25px auto 0 auto;
+            margin: 35px auto 0 auto;
             &-second {
                 margin-top: 15px;
             }

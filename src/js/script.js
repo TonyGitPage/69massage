@@ -37,7 +37,7 @@ const homeTexts = {
 	},
 	"home_services": {
 		ua:"Ціни еротичного масажу",
-		ru:"Цены еромассажей",
+		ru:"Цены эромассажей",
 	},
 	"home_girls": {
 		ua:"Дівчата",
@@ -319,7 +319,7 @@ const anotherTexts = {
 	},
 	"another_services": {
 		ua:"Ціни еротичного масажу",
-		ru:"Цены еромассажей",
+		ru:"Цены эромассажей",
 	},
 	"another_girls": {
 		ua:"Дівчата",
@@ -452,8 +452,9 @@ function checkBrowserLang() {
 console.log("navigator.language", checkBrowserLang());
 
 
-
-
+const pathname = window.location.pathname;
+const isUrlLanguageUA = pathname.includes('UA')
+isUrlLanguageUA();
 
 
 

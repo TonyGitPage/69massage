@@ -452,8 +452,9 @@ function checkBrowserLang() {
 console.log("navigator.language", checkBrowserLang());
 
 
-
-
+const pathname = window.location.pathname;
+const isUrlLanguageUA = pathname.includes('UA')
+isUrlLanguageUA();
 
 
 
