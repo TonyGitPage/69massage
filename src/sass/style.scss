@@ -20,6 +20,27 @@
     z-index: 10;
 }
 
+span#dots {
+    display: none;
+}
+
+span#more {
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+}
+
+#myBtn {
+    display: none;
+}
+#uaBtn {
+    display: none;
+}
+
+
 @import 'blocks/header';
 @import 'blocks/about';
 @import 'blocks/title';

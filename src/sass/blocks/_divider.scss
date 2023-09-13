@@ -1,8 +1,10 @@
 .divider {
+    position: relative;
     margin: 0 auto 0 auto;
     width: 500px;
     height: 5px;
     background: #EBBC86;
+    z-index: 5;
     &-bar {
         margin-top: 70px;
     }

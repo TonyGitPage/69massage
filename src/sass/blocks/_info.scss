@@ -1,5 +1,6 @@
 .info {
     position: relative;
+    z-index: 5;
     &__logo {
         width: 270px;
         height: 270px;
@@ -13,6 +14,11 @@
         width: 698px;
         height: 270px;
         background: $backgroundSecond;
+        &-section {
+            top: 250px;
+            border: 5px solid #EBBC86;
+            border-radius:50px;
+        }
     }
     &__block {
         position: relative;
@@ -67,5 +73,9 @@
                 }
             }
         }
+    }
+    &__section {
+        padding-top: 720px;
+        background: $backgroundColor;
     }
 }
